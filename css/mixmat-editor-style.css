@@ -1,0 +1,194 @@
+/**
+ * All of the CSS for both admin-specific functionality and
+ * public facing included in this file.
+ * @package Mixmat Plugin
+ */
+[class^="mxmt_"]{
+    box-sizing: border-box;
+}
+.mxmt.container span{
+    float:left;
+    position: relative;
+}
+.button-mxmt {
+    font-size:15;
+}
+#mxmt {
+    margin-top: 13px;
+    width: 100%;
+}
+#mxmt .mxmt-title {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    width: 100%;
+    margin: 6px;
+    padding: 0;
+    text-align: left;
+    color: #444;
+    font-size: 16px;
+}
+#mxmt #mxmt-generator-header {
+    padding: 15px 0;
+    overflow: hidden;
+}
+table.mxmt-table td,
+table.mxmt-table.second  td {
+    padding: 1px;
+}
+table.mxmt-table tr td.mxmt-td {
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+#mxmtList td {
+    padding: 1px 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+table.mxmt-table.second > tr td {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.mxmt-bgj {
+     background: #fdfdca;
+}
+.mxmt-bgb,
+table.mxmt-table .bgb {
+    background: #ddffff;
+}
+table.mxmt-table {
+    font-size: 15px;
+    border: 1px solid #eee;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    border-bottom: none;
+    margin-bottom: 12px;
+}
+#mxmt table.mxmt-table.second {
+    border-left: none;
+}
+.mxmt.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: inherit;
+}
+.mxmt.row {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+} 
+#mxmt_one_half,
+#mxmt_last_one_half {
+    width: 50%;
+    float: left;
+}
+/* 1/4    1/3    1/2    2/3    3/4    one */
+.mxmt_one_fourth, .mxmt_one_third, .mxmt_one_half, .mxmt_two_thirds, .mxmt_three_fourths, .mxmt_one {
+    float: left;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    position: relative;
+    min-height: 1px;
+    text-align: left;
+    padding: 7px;
+}
+.mxmt_last_one_fourth, .mxmt_last_one_third, .mxmt_last_one_half,
+.mxmt_last_two_thirds, .mxmt_last_three_fourths {
+    float: right;
+    position: relative;
+    min-height: 1px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+.mxmt_empty_row {
+    border-top: 1px solid transparent;
+    margin-bottom: 1px;
+    margin-top: 12px;
+    overflow: hidden;
+    width: 98%;
+    height: 0;
+    padding: 7px;
+    padding-bottom: 1%;
+    background: transparent;
+    display: block;
+    margin: .67em 1%;
+}
+.mxmt_one {
+    width: 98%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.mxmt_three_fourths,
+.mxmt_last_three_fourths {
+    width: 73%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.mxmt_two_thirds,
+.mxmt_last_two_thirds {
+    width: 64.66666667%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.mxmt_one_half,
+.mxmt_last_one_half{
+  width: 48%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.mxmt_one_third,
+.mxmt_last_one_third {
+    width: 31.3333333%;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 1px solid rgba(240,240,240, .9);
+    border-bottom-color: #ddd;
+}
+.mxmt_one_fourth,
+.mxmt_last_one_fourth{
+    width: 23%;
+    padding: 3px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 3px !important;
+}
+
+.mxmt_last_one_fourth:before, .mxmt_last_one_third:before, .mxmt_last_one_half:before, .mxmt_last_two_thirds:before,
+.mxmt_last_three_fourths:before, .mxmt_last_one:before, .mxmt_empty_row:before
+.mxmt_last_one_fourth:after, .mxmt_last_one_third:after, .mxmt_last_one_half:after, .mxmt_last_two_thirds:after,
+.mxmt_last_three_fourths:after, .mxmt_one:after, .mxmt_empty_row:after  {
+    display: table;
+    content: " ";
+}
+.mxmt_last_one_fourth:after, .mxmt_last_one_third:after, .mxmt_last_one_half:after, .mxmt_last_two_thirds:after,
+.mxmt_last_three_fourths:after, .mxmt_one:after, .mxmt_empty_row:after {
+    clear: both;
+}
+@media all and (max-width: 710px) {
+.mxmt_one_fourth, .mxmt_two_thirds, .mxmt_three_fourths, .mxmt_one,
+.mxmt_last_one_fourth, .mxmt_last_two_thirds, .mxmt_last_three_fourths {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 7px;
+    width: 100%;
+    }
+}
+@media all and (max-width: 600px) {
+.mxmt_one_half, .mxmt_last_one_half, .mxmt_one_third, .mxmt_last_one_third {
+    float: left;
+    width: 100%;
+    }
+} 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       MixMat
+ * Plugin Name:       MixMat Classic
  * Plugin URI:        http://themes.tradesouthwest.com/wordpress/plugins/mixmat
  * Description:       Mixmat Page Mixer gives editors an easy way to sectionalize the posts and pages without knowing CSS or HTML.
  * Version:           1.0.6

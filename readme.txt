@@ -2,9 +2,7 @@
 Contributors:      tradesouthwest
 Donate link:       https://paypal.me/tradesouthwest
 Tags:              page builder, editor, ClassicPress, landing page, visual editor, wysiwyg, design, page builder, front-end builder, pages, post, css, layout, grid, responsive, html
-Requires PHP:      7.1
-Requires CP:       1.5.1
-Stable tag:        1.0.6
+Stable tag:        1.0.63
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI:        http://themes.tradesouthwest.com/plugins/

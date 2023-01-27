@@ -2,8 +2,8 @@
 Contributors:      tradesouthwest
 Donate link:       https://paypal.me/tradesouthwest
 Tags:              page builder, editor, ClassicPress, landing page, visual editor, wysiwyg, design, page builder, front-end builder, pages, post, css, layout, grid, responsive, html
-Require PHP:       5.2
-Require CP:        1.0.1
+Requires PHP:      5.4
+Requires CP:       1.0.0
 Stable tag:        1.0.6
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
@@ -43,24 +43,16 @@ n/a
 
 == Changelog ==
 
-= 1.0.63
-* fixed jQuery error
-
-= 1.0.62
-* fixed undefined index
-
-= 1.0.61
-* added margin configurater
-
 = 1.0.6
+* fixed jQuery error
+* fixed undefined index
+* added margin configurater
 * added init as one function for all shortcodes
 * removed border on empty row
 * added box-sizing property to selectors
 
-= 1.0.51
-* added margin adjuster option
-
 = 1.0.5
+* added margin adjuster option
 * added four wide to two wide adjuster option
 
 = 1.0.4 

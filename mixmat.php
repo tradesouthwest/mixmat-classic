@@ -4,7 +4,7 @@
  * Plugin URI:        http://themes.tradesouthwest.com/wordpress/plugins/mixmat
  * Description:       Mixmat Page Mixer gives editors an easy way to sectionalize the posts and pages without knowing CSS or HTML.
  * Version:           1.0.7
- * Requires PHP:      7.1
+ * Requires PHP:      5.4
  * Requires CP:       1.4
  * Author:            Larry Judd
  * Author URI:        http://tradesouthwest.com

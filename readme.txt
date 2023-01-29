@@ -2,7 +2,7 @@
 Contributors:      tradesouthwest
 Donate link:       https://paypal.me/tradesouthwest
 Tags:              page builder, editor, ClassicPress, landing page, visual editor, wysiwyg, design, page builder, front-end builder, pages, post, css, layout, grid, responsive, html
-Stable tag:        1.0.63
+Stable tag:        1.0.7
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI:        http://themes.tradesouthwest.com/plugins/
@@ -40,6 +40,7 @@ your background colors to.
 n/a
 
 == Changelog ==
+* prepare for ClassicPress repo
 
 = 1.0.6
 * fixed jQuery error

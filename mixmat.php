@@ -3,9 +3,9 @@
  * Plugin Name:       MixMat Classic
  * Plugin URI:        http://themes.tradesouthwest.com/wordpress/plugins/mixmat
  * Description:       Mixmat Page Mixer gives editors an easy way to sectionalize the posts and pages without knowing CSS or HTML.
- * Version:           1.0.63
+ * Version:           1.0.7
  * Requires PHP:      7.1
- * Requires CP:       1.5.1
+ * Requires CP:       1.4
  * Author:            Larry Judd
  * Author URI:        http://tradesouthwest.com
  * License:           GPL-2.0+
@@ -92,7 +92,7 @@ add_action( 'wp_enqueue_scripts', 'mixmat_scripts' );
 function mixmat_admin_scripts(){
 
     wp_register_script( 'mixmat-plugin', plugins_url( 'js/mixmat-plugin.js', 
-    __FILE__ ), array( 'jquery' ), '1.0.63', true );
+    __FILE__ ), array( 'jquery' ), '1.0.7', true );
     
     wp_enqueue_script( 'mixmat-plugin' );
     wp_enqueue_script( 'wp-color-picker');
